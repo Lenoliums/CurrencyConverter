@@ -1,0 +1,25 @@
+{
+  "name": "currencyconversion",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "iso-country-currency": "^0.7.2",
+    "vue": "^3.4.29",
+    "vue-i18n": "^9.14.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "happy-dom": "^15.7.0",
+    "vite": "^5.3.1",
+    "vitest": "^2.0.5"
+  }
+}
